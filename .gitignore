@@ -1,6 +1,27 @@
+_deps
+build
+target
+out
+lib
 pom.xml
-*jar
-/lib/
-/classes/
-/targets/
+# use glob syntax.
+syntax: glob
+*.class
+*.jar
+*~
+.DS_Store
+*.#*
+*#*
+*.classpath
+*.project
+*.settings
+*.dot
+.cake/
+.lein-failures
 .lein-deps-sum
+doc
+*.ipr
+*.iws
+*.iml
+checkouts
+.nrepl-port
